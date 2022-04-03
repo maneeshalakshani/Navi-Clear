@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 class Loading extends StatefulWidget {
   const Loading({Key? key}) : super(key: key);
@@ -15,7 +16,7 @@ class _LoadingState extends State<Loading> {
   }
 
   giveLoadingTime() {
-    var duration = Duration(seconds: 2);
+    var duration = Duration(seconds: 4);
     Future.delayed(duration, () {
       Navigator.pushReplacementNamed(context, '/selectOption');
     });
@@ -24,8 +25,12 @@ class _LoadingState extends State<Loading> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 72, 157, 227),
-      body: Center(),
+      backgroundColor: Color.fromARGB(255, 47, 99, 141),
+      body: Center(
+        child: SpinKitPouringHourGlass(
+          color: Colors.white,
+        ),
+      ),
     );
   }
 }
