@@ -53,7 +53,9 @@ class SelectOption extends StatelessWidget {
                 width: 300,
                 height: 45,
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/SignUp');
+                  },
                   style: ElevatedButton.styleFrom(
                     primary: Color.fromARGB(255, 240, 156, 30),
                   ),
