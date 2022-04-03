@@ -32,6 +32,9 @@ dependencies:
 
   super_tooltip: ^1.0.1
   flutter_spinkit: ^5.1.0
+  flutter_downloader: ^1.7.3
+  path_provider: ^2.0.9
+  permission_handler: ^9.2.0
 
   #Google Sign In
   firebase_auth: ^3.3.11
