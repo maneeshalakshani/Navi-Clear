@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:naviclear/Pages/LoadingPage.dart';
 import 'package:naviclear/Pages/SelectOptionPage.dart';
 import 'package:naviclear/Pages/SignIn.dart';
 import 'package:naviclear/Pages/SignUp.dart';
@@ -9,7 +10,8 @@ Future main() async {
     debugShowCheckedModeBanner: false,
     initialRoute: '/',
     routes: {
-      '/': (context) => SelectOption(),
+      '/': (context) => Loading(),
+      '/selectOption': (context) => SelectOption(),
       '/signIn': (context) => SignIn(),
       '/SignUp': (context) => SignUp(),
     },
