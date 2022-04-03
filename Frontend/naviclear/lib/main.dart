@@ -12,7 +12,7 @@ Future main() async {
     routes: {
       '/': (context) => Loading(),
       '/selectOption': (context) => SelectOption(),
-      '/signIn': (context) => SignIn(),
+      '/SignIn': (context) => SignIn(),
       '/SignUp': (context) => SignUp(),
     },
   ));

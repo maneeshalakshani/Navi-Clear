@@ -30,7 +30,7 @@ class SelectOption extends StatelessWidget {
                 height: 45,
                 child: ElevatedButton(
                   onPressed: () {
-                    Navigator.pushNamed(context, '/signIn');
+                    Navigator.pushNamed(context, '/SignIn');
                   },
                   style: ElevatedButton.styleFrom(
                     primary: Colors.orange,

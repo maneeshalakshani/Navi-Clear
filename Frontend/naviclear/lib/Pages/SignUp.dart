@@ -254,7 +254,9 @@ class _SignUpState extends State<SignUp> {
 
                       //============== LOGIN WITH EMAIL BUTTON ===================
                       ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.pushReplacementNamed(context, '/SignIn');
+                        },
                         style: ButtonStyle(
                           backgroundColor:
                               MaterialStateProperty.all(Colors.orange),
