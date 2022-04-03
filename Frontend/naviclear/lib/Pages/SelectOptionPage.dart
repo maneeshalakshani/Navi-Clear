@@ -14,6 +14,7 @@ class SelectOption extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              //================= IMAGE ==================================
               const CircleAvatar(
                 backgroundImage: AssetImage('assets/log.png'),
                 radius: 110.0,
@@ -22,11 +23,15 @@ class SelectOption extends StatelessWidget {
               SizedBox(
                 height: 60.0,
               ),
+
+              //=================SignIn button==================================
               SizedBox(
                 width: 300,
                 height: 45,
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/SignIn');
+                  },
                   style: ElevatedButton.styleFrom(
                     primary: Colors.orange,
                   ),
@@ -42,11 +47,15 @@ class SelectOption extends StatelessWidget {
               SizedBox(
                 height: 30.0,
               ),
+
+              //=================SignUp button==================================
               SizedBox(
                 width: 300,
                 height: 45,
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/SignUp');
+                  },
                   style: ElevatedButton.styleFrom(
                     primary: Color.fromARGB(255, 240, 156, 30),
                   ),
@@ -62,6 +71,8 @@ class SelectOption extends StatelessWidget {
               SizedBox(
                 height: 50.0,
               ),
+
+              //================ Copyright Statement ===========================
               SizedBox(
                 width: 250,
                 child: Text(
