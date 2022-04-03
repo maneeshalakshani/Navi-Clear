@@ -32,7 +32,7 @@ class NavBar extends StatelessWidget {
           ),
           IconButton(
             onPressed: () {
-              Navigator.pushReplacementNamed(context, '/SignIn');
+              Navigator.pushReplacementNamed(context, '/profile');
             },
             icon: Icon(
               Icons.account_circle,
