@@ -1,4 +1,4 @@
-# Navi-Clear
+# School Map
 
 ### This is a personal project developed using flutter.
 
