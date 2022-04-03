@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:naviclear/Pages/MainPage.dart';
 
 class NavBar extends StatelessWidget {
   const NavBar({Key? key}) : super(key: key);
@@ -12,21 +13,27 @@ class NavBar extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushReplacementNamed(context, '/main');
+            },
             icon: Icon(
               Icons.home,
               color: Colors.white,
             ),
           ),
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushReplacementNamed(context, '/SignIn');
+            },
             icon: Icon(
               Icons.note,
               color: Colors.white,
             ),
           ),
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pushReplacementNamed(context, '/SignIn');
+            },
             icon: Icon(
               Icons.account_circle,
               color: Colors.white,
