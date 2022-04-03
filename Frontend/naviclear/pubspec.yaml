@@ -30,6 +30,8 @@ dependencies:
   flutter:
     sdk: flutter
 
+  super_tooltip: ^1.0.1
+
   #Google Sign In
   firebase_auth: ^3.3.11
   google_sign_in: ^5.2.4
