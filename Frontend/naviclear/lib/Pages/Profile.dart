@@ -10,7 +10,7 @@ class Profile extends StatefulWidget {
 }
 
 class _ProfileState extends State<Profile> {
-  User users = User(name: 'Maneesha Lakshani', username: 'maneesha', bio: null);
+  User user = User(name: 'Maneesha Lakshani', username: 'maneesha', bio: null);
 
   @override
   Widget build(BuildContext context) {
@@ -26,13 +26,64 @@ class _ProfileState extends State<Profile> {
       body: SafeArea(
         child: Column(
           children: [
-            Row(
-              children: [
-                CircleAvatar(
-                  backgroundImage: AssetImage('assets/log.png'),
-                  radius: 60.0,
-                ),
-              ],
+            Container(
+              margin: EdgeInsets.symmetric(horizontal: 30.0, vertical: 30.0),
+              child: Row(
+                children: [
+                  Stack(
+                    children: [
+                      Container(
+                        height: 126,
+                        width: 126,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Colors.grey,
+                        ),
+                      ),
+                      Positioned(
+                        top: 3,
+                        left: 3,
+                        child: CircleAvatar(
+                          backgroundImage: AssetImage('assets/School.jpg'),
+                          radius: 60.0,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Container(
+                        width: 220,
+                        padding: EdgeInsets.only(left: 30),
+                        //color: Colors.red,
+                        child: Text(
+                          user.name,
+                          maxLines: 3,
+                          overflow: TextOverflow.ellipsis,
+                          style: TextStyle(
+                            fontSize: 30.0,
+                            color: Colors.black,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        width: 220,
+                        padding: EdgeInsets.only(left: 30),
+                        //color: Colors.red,
+                        child: Text(
+                          "@${user.username}",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                          style: TextStyle(
+                            fontSize: 16.0,
+                            color: Colors.grey,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
             ),
           ],
         ),
