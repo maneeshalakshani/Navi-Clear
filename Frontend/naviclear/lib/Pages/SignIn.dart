@@ -190,7 +190,9 @@ class _SignInState extends State<SignIn> {
 
                       //============== LOGIN WITH EMAIL BUTTON ===================
                       ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.pushNamed(context, '/main');
+                        },
                         style: ButtonStyle(
                           backgroundColor:
                               MaterialStateProperty.all(Colors.orange),
