@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "943642105377",
+    "project_id": "naviclear-98efd",
+    "storage_bucket": "naviclear-98efd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943642105377:android:6a35386e1ceaca20667560",
+        "android_client_info": {
+          "package_name": "com.example.naviclear"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943642105377-qr8qhjsttheaog8d5g37ldehmhv73upm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABRw1RX_F5qugTN4w9iGix4kPKI1ThgIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943642105377-qr8qhjsttheaog8d5g37ldehmhv73upm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
