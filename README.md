@@ -1,24 +1,16 @@
-# School Map
+# naviclear
 
-### This is a personal project developed using flutter.
+A new Flutter project.
 
-##### First Page
-<img alt="Select-Option-Page" src="https://user-images.githubusercontent.com/85009979/161425739-56131987-3ae0-4953-9d6b-9d8c2789e4d9.png" width="200"> <img alt="Select-Option-Page" src="https://user-images.githubusercontent.com/85009979/161408641-acfaa9e2-9224-4928-ac3f-c7da39e11374.png" width="200"> <img alt="Login_Page" src="https://user-images.githubusercontent.com/85009979/161411575-5ef8bb2f-2ceb-4025-b8e6-3ff5ab623e4b.png" width="200"> <img alt="Login_Page" src="https://user-images.githubusercontent.com/85009979/161425793-712e25af-cdfb-4359-a4f8-60c833aec66b.png" width="200">
+## Getting Started
 
-<img alt="Login_Page" src="https://user-images.githubusercontent.com/85009979/161430363-353027ed-041b-4921-9cc2-f1b576cd9d54.png" width="200">
+This project is a starting point for a Flutter application.
 
+A few resources to get you started if this is your first Flutter project:
 
-# Basic structure of this page
-- Loading Page
-- SignIn / SignUp selection page
-  - SignIn Page
-    - #### (Inside)
-  - Sign Up Page
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-## (Inside)
-- Main Page
-  - Contains Notification, Images (Can like those images and notifications)
-- Note Page
-  - Contains passpapers and documents. Those are in pdf and they can download
-- Profile Page
-  - Contains User Image, Name, uasername and users special data
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
